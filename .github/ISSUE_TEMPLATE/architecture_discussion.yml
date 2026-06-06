@@ -1,0 +1,28 @@
+name: Architecture Discussion
+description: Propose a significant architectural change.
+title: "[Architecture]: "
+labels:
+  - architecture
+
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What problem are we solving?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the proposed architecture.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Trade-offs
+      description: What are the downsides and alternatives?
